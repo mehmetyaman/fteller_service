@@ -71,7 +71,7 @@ app.use(function(err, req, res, next) {
 // Database
 //var mongo = require('mongodb');
 var dbOptions= {
-  'auto_reconnect': true
+  'auto_reconnect': true   
   , 'poolSize' : 1
   , w : 1
   , safe : true
